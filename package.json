@@ -1,0 +1,21 @@
+{
+  "name": "pruebabotdiscord",
+  "version": "1.0.0",
+  "description": "Prueba Discord",
+  "main": "./prod/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./prod/index.js"
+  },
+  "author": "dalcon@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.0.1",
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "typescript": "^4.3.5"
+  }
+}
