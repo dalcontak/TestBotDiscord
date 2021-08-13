@@ -4,6 +4,7 @@
   "description": "Prueba Discord",
   "main": "./prod/index.js",
   "scripts": {
+    "prebuild": "rm -r ./prod",
     "build": "tsc",
     "start": "node -r dotenv/config ./prod/index.js"
   },
